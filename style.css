@@ -1,0 +1,43 @@
+/*Gaya umum*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:  100vh;
+    background-color: aqua;
+}
+
+/* kotak konten */
+.container{
+    text-align: center;
+    background-color:aliceblue;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* header */
+h1{
+    color: #333;
+    
+}
+
+/* paragraf */
+p{
+    color: #777;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.btn{
+    color: aqua;
+    font-size: 10px;
+    border-radius: 16px;
+    padding: 10px 20px;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.container {
+display: flex;
+align-items: center;
+padding: 110px 5px;
+justify-content: center;
+}
+
+body {
+background-color: aqua;
+}
+
+.container > img {
+position: relative;
+display: block;
+border-radius: 20%;
+width: fit-content;
+}
+
+
